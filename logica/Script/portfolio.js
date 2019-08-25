@@ -2,8 +2,8 @@ $(document).ready(function() {
 
     var $slideImage = document.querySelector("#slide");
     var $slideImage2 = document.querySelector("#slide2");
+    $("#contato").hide();
     $("#projetos").hide();
-    $("#sobre").hide();
 
     $("#btnProjeto").click(function() {
         $("#sobre").hide();
