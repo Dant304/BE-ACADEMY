@@ -4,21 +4,31 @@ $(document).ready(function() {
     var $slideImage2 = document.querySelector("#slide2");
     $("#contato").hide();
     $("#projetos").hide();
+    $("#experiencia").hide();
 
     $("#btnProjeto").click(function() {
         $("#sobre").hide();
         $("#projetos").show();
         $("#contato").hide();
+        $("#experiencia").hide();
     });
     $("#btnSobre").click(function() {
         $("#sobre").show();
         $("#projetos").hide();
         $("#contato").hide();
+        $("#experiencia").hide();
+    });
+    $("#btnExperiencia").click(function() {
+        $("#sobre").hide();
+        $("#projetos").hide();
+        $("#contato").hide();
+        $("#experiencia").show();
     });
     $("#btnContato").click(function() {
         $("#sobre").hide();
         $("#projetos").hide();
         $("#contato").show();
+        $("#experiencia").hide();
     });
     
     function slide(){
